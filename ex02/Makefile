@@ -1,11 +1,11 @@
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
-NAME = Span
+NAME = MutantStack
 
-INC = Span.hpp
+INC =	MutantStack.hpp \
+		MutantStack.tpp
 
-SRC =	Span.cpp \
-		main.cpp
+SRC = main.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
