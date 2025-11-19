@@ -6,7 +6,7 @@
 /*   By: mbani-ya <mbani-ya@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/18 10:16:54 by mbani-ya          #+#    #+#             */
-/*   Updated: 2025/11/18 15:47:16 by mbani-ya         ###   ########.fr       */
+/*   Updated: 2025/11/19 10:36:38 by mbani-ya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int main()
 	//extra test
 	const int size = 100000;
 	std::vector<int> NbrVec;
-	for (int i; i < size; i++)
+	for (int i = 0; i < size; i++)
 		NbrVec.push_back(i);
 	Span spanVec(size);
 	std::cout << "\n=== CANT COUNT SPAN EXCEPTION ===" << std::endl;
