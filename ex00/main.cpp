@@ -6,15 +6,16 @@
 /*   By: mbani-ya <mbani-ya@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/16 16:57:33 by mbani-ya          #+#    #+#             */
-/*   Updated: 2025/11/18 14:54:25 by mbani-ya         ###   ########.fr       */
+/*   Updated: 2025/11/18 18:37:16 by mbani-ya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "easyfind.hpp"
-#include <deque>
 #include <iostream>
+#include <deque>
 #include <vector>
 #include <list>
+#include <iterator>//distance
 
 int	main()
 {
